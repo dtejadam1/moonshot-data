@@ -1,0 +1,44 @@
+{
+  "name": "01-test-multiple-recipes-comprehensive-similarity",
+  "description": "Comprehensive similarity evaluation using multiple metrics",
+  "tags": [
+    "similarity",
+    "comprehensive"
+  ],
+  "categories": [
+    "capability",
+    "quality"
+  ],
+  "datasets": [
+    "aigs-test-dataset"
+  ],
+  "prompt_templates": [],
+  "metrics": [
+    "rougescorer",
+    "bleuscore",
+    "bertscore",
+    "leakagerate"
+  ],
+  "grading_scale": {
+    "A": [
+      80,
+      100
+    ],
+    "B": [
+      60,
+      79
+    ],
+    "C": [
+      40,
+      59
+    ],
+    "D": [
+      20,
+      39
+    ],
+    "E": [
+      0,
+      19
+    ]
+  }
+}

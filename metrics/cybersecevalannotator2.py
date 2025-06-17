@@ -9,7 +9,7 @@ from moonshot.src.connectors_endpoints.connector_endpoint import ConnectorEndpoi
 from moonshot.src.metrics.metric_interface import MetricInterface
 from moonshot.src.utils.timeit import timeit
 
-DEFAULT_EVALUATION_MODEL = "openai-gpt4o"
+DEFAULT_EVALUATION_MODEL = "llm-judge-azure-gpt4-annotator"
 
 
 class CyberSecEvalAnnotator2(MetricInterface):

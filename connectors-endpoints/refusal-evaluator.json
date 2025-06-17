@@ -1,8 +1,8 @@
 {
     "name": "Refusal Evaluator",
-    "connector_type": "openai-connector",
-    "uri": "",
-    "token": "",
+    "connector_type": "azure-openai-connector",
+    "uri": "AZURE_API_URL_HERE",
+    "token": "AZURE_API_KEY_HERE",
     "max_calls_per_second": 10,
     "max_concurrency": 10,
     "model": "gpt-4o",

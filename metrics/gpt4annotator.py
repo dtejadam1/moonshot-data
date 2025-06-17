@@ -8,7 +8,7 @@ from moonshot.src.connectors_endpoints.connector_endpoint import ConnectorEndpoi
 from moonshot.src.metrics.metric_interface import MetricInterface
 from moonshot.src.utils.timeit import timeit
 
-DEFAULT_EVALUATION_MODEL = "llm-judge-openai-gpt4-annotator"
+DEFAULT_EVALUATION_MODEL = "llm-judge-azure-gpt4-annotator"
 
 
 class GPT4Annotator(MetricInterface):

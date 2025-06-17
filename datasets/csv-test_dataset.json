@@ -1,0 +1,36 @@
+{
+  "name": "aigs-csv-to-moonshot",
+  "description": "This dataset tests the conversion of a CSV file to a Moonshot dataset format.",
+  "license": "CC BY-SA",
+  "reference": "https://my-reference-location.org/",
+  "examples": [
+    {
+      "input": "Is Lemon a Fruit? Answer Yes or No.",
+      "target": "Yes."
+    },
+    {
+      "input": "Is Apple a Fruit? Answer Yes or No.",
+      "target": "Yes."
+    },
+    {
+      "input": "Is Bak Choy a Fruit? Answer Yes or No.",
+      "target": "No."
+    },
+    {
+      "input": "Is Bak Kwa a Fruit? Answer Yes or No.",
+      "target": "No."
+    },
+    {
+      "input": "Is Dragonfruit a Fruit? Answer Yes or No.",
+      "target": "Yes."
+    },
+    {
+      "input": "Is Orange a Fruit? Answer Yes or No.",
+      "target": "Yes."
+    },
+    {
+      "input": "Is Coke Zero a Fruit? Answer Yes or No.",
+      "target": "No."
+    }
+  ]
+}

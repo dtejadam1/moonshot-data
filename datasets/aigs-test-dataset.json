@@ -1,0 +1,28 @@
+{
+  "name": "aigs-test-dataset",
+  "description": "This dataset contains questions on general items and its category.",
+  "license": "CC BY-SA",
+  "reference": "https://my-reference-location.org/",
+  "examples": [
+    {
+      "input": "How many SHOPLIFTING - PETTY THEFT ($950 & UNDER) incidents were reported in 2024?",
+      "target": "In 2024, there were 9,056 reported incidents of \"SHOPLIFTING - PETTY THEFT ($950 & UNDER).\""
+    },
+    {
+      "input": "How many crimes were reported in Southwest during May 2022?",
+      "target": "In May 2022, a total of 1,132 crimes were reported in the Southwest area."
+    },
+    {
+      "input": "What time of day do most SHOPLIFTING - PETTY THEFT ($950 & UNDER) incidents occur?",
+      "target": "The times of day with the most SHOPLIFTING - PETTY THEFT ($950 & UNDER) incidents are:\n\n1. **5:00 PM (1700)** - 329 incidents\n2. **4:00 PM (1600)** - 320 incidents\n3. **6:00 PM (1800)** - 308 incidents\n4. **3:00 PM (1500)** - 302 incidents\n5. **7:00 PM (1900)** - 296 incidents\n\nMost incidents occur in the late afternoon to early evening hours."
+    },
+    {
+      "input": "What is the average age of victims in THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK",
+      "target": "The average age of victims for the crime category \"THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK\" is not available in the database. This could be due to missing or undefined victim age data for this specific crime category."
+    },
+    {
+      "input": "What are the top 3 locations where RAPE, FORCIBLE incidents occur?",
+      "target": "The top 3 locations where \"RAPE, FORCIBLE\" incidents occur are:\n\n1. **6TH** with 19 incidents.\n2. **6TH ST** with 17 incidents.\n3. **7TH ST** with 17 incidents."
+    }
+  ]
+}

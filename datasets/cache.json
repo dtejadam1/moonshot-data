@@ -2451,5 +2451,38 @@
     "reference": "https://github.com/mlcommons/ailuminate",
     "license": "CC-BY-4.0 license",
     "hash": "46f74a25053d45de"
+  },
+  "aigs-test-dataset": {
+    "id": "aigs-test-dataset",
+    "name": "aigs-test-dataset",
+    "description": "This dataset contains questions on general items and its category.",
+    "examples": null,
+    "num_of_dataset_prompts": 5,
+    "created_date": "2025-06-16 16:14:45",
+    "reference": "https://my-reference-location.org/",
+    "license": "CC BY-SA",
+    "hash": "4c411b8d70473054"
+  },
+  "csv-test_dataset": {
+    "id": "csv-test_dataset",
+    "name": "aigs-csv-to-moonshot",
+    "description": "This dataset tests the conversion of a CSV file to a Moonshot dataset format.",
+    "examples": null,
+    "num_of_dataset_prompts": 7,
+    "created_date": "2025-06-16 15:39:50",
+    "reference": "https://my-reference-location.org/",
+    "license": "CC BY-SA",
+    "hash": "874c11f9ac536805"
+  },
+  "hf-climate-question-answers": {
+    "id": "hf-climate-question-answers",
+    "name": "hf-climate-question-answers",
+    "description": "This dataset tests the conversion of a Hugging Face dataset to a Moonshot dataset format.",
+    "examples": null,
+    "num_of_dataset_prompts": 7033,
+    "created_date": "2025-06-16 15:57:34",
+    "reference": "https://huggingface.co/datasets/climate-question-answers",
+    "license": "MIT",
+    "hash": "4e9aec3eb8835d9d"
   }
 }

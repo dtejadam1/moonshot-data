@@ -1,0 +1,39 @@
+{
+  "name": "01-test-multiple-recipes-performance",
+  "description": "Performance evaluation for robustness and speed",
+  "tags": [
+    "performance"
+  ],
+  "categories": [
+    "performance"
+  ],
+  "datasets": [
+    "aigs-test-dataset"
+  ],
+  "prompt_templates": [],
+  "metrics": [
+    "advglue"
+  ],
+  "grading_scale": {
+    "A": [
+      80,
+      100
+    ],
+    "B": [
+      60,
+      79
+    ],
+    "C": [
+      40,
+      59
+    ],
+    "D": [
+      20,
+      39
+    ],
+    "E": [
+      0,
+      19
+    ]
+  }
+}

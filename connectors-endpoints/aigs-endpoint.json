@@ -1,0 +1,14 @@
+{
+  "name": "aigs-endpoint",
+  "connector_type": "aigs-connector",
+  "uri": "http://localhost:5050",
+  "token": "ADD_YOUR_TOKEN_HERE",
+  "max_calls_per_second": 1,
+  "max_concurrency": 1,
+  "model": "aigs-gpt",
+  "params": {
+    "timeout": 100,
+    "max_attempts": 3,
+    "temperature": 0
+  }
+}
